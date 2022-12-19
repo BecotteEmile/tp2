@@ -1,0 +1,11 @@
+#listeepisode {/*la couleur des caractères, du background et l'espacement du tableau*/
+    background-color: green;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  table,
+  td {/*le border des régions du tableau et du tableau lui même et le comportement du border*/
+    border: 1px solid rgb(197, 57, 57);
+    border-collapse: collapse;
+  }

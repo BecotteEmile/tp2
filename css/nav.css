@@ -1,0 +1,44 @@
+nav {/*la position, l'espacement du contenu, la largeur et les transformations du nav*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem 0 1rem 0;
+  transition: transform 1s;
+}
+a {/*la couleur et la position des liens du nav et aucune décoration*/
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 4rem;
+    transition: all 1s;
+  }
+
+#plus {/*on cache le checkbox*/
+  display: none;
+}
+
+.fleche {/*la position de la flèche et son mouvement*/
+  position: fixed;
+  top: 60px;
+  right: 5px;
+  transition: transform 1s  ease-in-out;
+}
+
+
+a:hover {/*ce qui se passe lorsqu'on survole le lien*/
+  color: aqua;
+}
+
+#plus:checked ~ .fleche{/*ce qui se passe lorsqu'on clique sur la flèche*/
+  transform: rotate(180deg);
+}
+
+#plus:checked ~ .centre {/*ce qui se passe pour le nav lorsqu'on clique sur la flèche*/
+  transform: translateY(40vh);
+  transition: all;
+}

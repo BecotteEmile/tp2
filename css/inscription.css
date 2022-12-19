@@ -1,0 +1,50 @@
+#inscription {/*l'espacement de l'insrciption et la couleur du background*/
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 0, 0);
+}
+#inscription section {/*l'espacement du contenu de la section qui contient le texte*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#inscription figure img {/*la taille de l'image dans la section d'inscription*/
+  width: 500px;
+  height: 500px;
+}
+form {/*l'espacement du formulaire*/
+  display: flex;
+  flex-direction: column;
+}
+
+#txt-prenom,
+#txt-nom {/*la largeur de la section pour écrire*/
+  width: 50%;
+}
+.texte,
+.choix1,
+.choix2 {/*le shading et l'arrondissement des bordures des choix et de la section texte*/
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+.toutchoix {/*la position des choix*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.choix1,
+.choix2 {/*le padding et le border des choix*/
+  padding: 5px;
+  border: 3px solid black;
+}
+#chk-html,
+#chk-css {/*cacher les checkbox*/
+  display: none;
+}
+
+#chk-html:checked ~ .choix1 /*,
+#chk-css:checked ~ .choix2*/ {/*la transformation des choix lorsqu'on les choisis*/
+  background-color: rgb(73, 125, 255);
+}

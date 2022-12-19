@@ -1,0 +1,16 @@
+#video {/*l'espacement de la section et la couleur du background et des caractères*/
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 27, 27);
+    color: white;
+  }
+  
+  #video section {/*l'espacement des vidéos*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #video figure {/*l'espacement entre les vidéos*/
+    margin-inline: 20px;
+  }

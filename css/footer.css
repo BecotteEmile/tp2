@@ -1,0 +1,28 @@
+footer a{/*la couleur et l'espacement des liens*/
+    color: white;
+    padding: 0;
+}
+
+footer {/*l'espacement du footer et la couleur des caractères et du background*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 15px; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+footer dl {/*l'espacement des listes*/
+    display: flex;
+    flex-direction: column;
+}
+
+.option, 
+.fb {/*enlevement des espaces de trop*/
+ margin: 0;
+}
+.reseau{/*l'espacement des réseaux*/
+    display: flex;
+    flex-direction: row;
+  }

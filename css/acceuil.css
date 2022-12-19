@@ -1,0 +1,16 @@
+#accueil {/*l'image du background et ses caractéristiques et l'espacement du contenu*/
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/92976-anime-Tengen_Toppa_Gurren_Lagann-Simon-748x389.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+#accueil a { /*la couleur des liens*/
+    color: rgb(61, 255, 61);
+}
+
+.description{/*la largeur de la description*/
+    width: 700px;
+}
+
+  
