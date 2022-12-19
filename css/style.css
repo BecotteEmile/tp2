@@ -1,54 +1,27 @@
-html {/*le comportement de la page lorsqu'on utilise la roulette*/
+html {
+  /*le comportement de la page lorsqu'on utilise la roulette*/
   scroll-behavior: smooth;
 }
-body {/*la police de la page*/
+body {
+  /*la police de la page*/
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*/////////////////////////////////////////////// Les sections de la page*/
-section {/*l'espacement des différentes section*/
+section {
+  /*l'espacement des différentes section*/
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-
-
-
-
-
-h1 {/*la taille des titres */
+h1 {
+  /*la taille des titres */
   font-size: 3rem;
 }
-
 
 /*/ //////////////////////////////////////////////////////////////////////////////////////////////*/
 /*
 Menu principal du site
 On utilise un positionnement fixe pour que le menu reste en haut de chacune des sections
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

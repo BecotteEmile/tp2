@@ -1,29 +1,35 @@
-#evenement {/*la couleur de la section*/
-    background-color: purple;
+#evenement {
+  /*la couleur de la section*/
+  background-color: purple;
 }
 
-#evenement h2{/*la position des titres*/
-    display: flex;
-    align-self: flex-start;
+#evenement h2 {
+  /*la position des titres*/
+  display: flex;
+  align-self: flex-start;
 }
 
 #evenement,
-#evenement section{/*l'espacement des sections*/
+#evenement section {
+  /*l'espacement des sections*/
   display: flex;
   flex-direction: column;
 }
 
-#evenement div{/*l'espacement des différentes parties du texte*/
+#evenement div {
+  /*l'espacement des différentes parties du texte*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
-#evenement p{/*la largeur et la position des textes*/
+#evenement p {
+  /*la largeur et la position des textes*/
   width: 700px;
   margin-right: 100px;
 }
 
-#evenement img {/*la taille des images*/
-    width: 200px;
-    height: 200px;
-  }
+#evenement img {
+  /*la taille des images*/
+  width: 200px;
+  height: 200px;
+}
