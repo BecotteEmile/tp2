@@ -5,6 +5,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  color: rgb(61, 255, 61);
 }
 #accueil a {
   /*la couleur des liens*/
